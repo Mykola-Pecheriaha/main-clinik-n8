@@ -2,6 +2,7 @@ import localFont from 'next/font/local'
 import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header/Header'
+import ContactsBar from './components/ContactsBar/ContactsBar'
 
 const inter = Inter({
   weight: ['400', '600', '800'],
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         className={`${inter.class} ${poppins.class} ${geistSans.variable} ${geistMono.variable}`}
       >
         <div className="headerContainer">
+          <ContactsBar />
           <Header />
         </div>
         {children}

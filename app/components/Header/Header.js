@@ -22,13 +22,13 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Image
-          src="/logo2.jpg"
+          src="/Logo.jpg"
           alt="Logo"
-          width={40}
-          height={40}
+          width={50}
+          height={50}
           className={styles.logoImage}
         />
-        <strong>PlasticP</strong>
+        <strong>КНП ЦМКЛ</strong>
       </div>
       <div className={styles.headerRignt}>
         <nav className={styles.nav}>
@@ -68,7 +68,7 @@ const Header = () => {
         </nav>
 
         <div className={styles.burger} onClick={toggleMenu}>
-          ☰
+          ☰ Menu
         </div>
 
         {isMenuOpen && (
