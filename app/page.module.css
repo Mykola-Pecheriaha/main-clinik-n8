@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Узгоджена ширина з хедером */
+  margin: 0 auto;
+  min-height: calc(
+    100vh - 200px
+  ); /* Регулює висоту з урахуванням хедера, контактної стрічки та футера */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #cddf7d;
+}

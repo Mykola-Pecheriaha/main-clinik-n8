@@ -1,0 +1,98 @@
+/* Загальний контейнер */
+.bigBord {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: #f8f9fa; /* Світлий фон для основного блоку */
+}
+
+.containerBig {
+  display: flex;
+  flex-direction: column; /* Елементи в колонку */
+  align-items: flex-start; /* Вирівнювання по лівому краю */
+  padding: 20px;
+}
+
+/* Заголовок */
+.mainTitle {
+  font-size: 3rem;
+  color: #2a2a2a;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
+.subTitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+/* Кнопка */
+.contactButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 80px;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #0056b3;
+}
+
+/* Статистика */
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* Вирівнювання по вертикалі */
+  background-color: #4b96e2; /* Світлий сірий фон */
+  padding: 20px;
+  margin: 100px auto; /* Автоматичне центрування */
+  border-radius: 10px;
+  width: 80%; /* Задаємо ширину 80% від ширини вікна */
+  max-width: 1200px; /* Максимальна ширина */
+  min-width: 40px; /* Мінімальна ширина */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+}
+
+.stats p {
+  font-size: 1rem;
+  color: #fff; /* Білий текст для контрасту */
+}
+
+.stats span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* Інший колір для акценту */
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
+/* Опис пропозицій */
+.offerTitle {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Картки */
+.cardsSection {
+  padding-top: 20px;
+}

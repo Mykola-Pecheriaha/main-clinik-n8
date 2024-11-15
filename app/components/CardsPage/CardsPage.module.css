@@ -1,0 +1,49 @@
+/* Контейнер для карточок */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap; /* Дозволяє переносити карточки на новий рядок */
+  justify-content: space-around; /* Рівномірний розподіл між карточками */
+  gap: 20px; /* Відступи між карточками */
+  padding: 20px; /* Внутрішні відступи для контейнера */
+  max-width: 1200px; /* Максимальна ширина для контейнера */
+  margin: 0 auto; /* Центрування контейнера */
+}
+
+/* Карточки */
+.card {
+  background-color: #f8f9fa; /* Світлий фон */
+  border: 1px solid #ddd; /* Тонка рамка */
+  border-radius: 10px; /* Заокруглені кути */
+  width: 200px; /* Фіксована ширина карточки */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+  overflow: hidden; /* Зрізає зайвий контент */
+  transition: transform 0.3s, box-shadow 0.3s; /* Анімація при наведенні */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Збільшення карточки при наведенні */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Посилена тінь */
+}
+
+/* Заголовок карточки */
+.card h3 {
+  font-size: 1rem;
+  margin: 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* Опис карточки */
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Зображення */
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd; /* Розділення зображення і тексту */
+}
