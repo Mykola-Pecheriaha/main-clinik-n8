@@ -1,9 +1,12 @@
 /* Загальний контейнер */
 .bigBord {
   font-family: Arial, sans-serif;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
-  background-color: #f8f9fa; /* Світлий фон для основного блоку */
+  background-image: url('/big2.jpg'); /* Шлях до вашого зображення */
+  background-size: cover; /* Зображення покриває весь блок */
+  background-position: center; /* Центрування зображення */
+  background-repeat: no-repeat; /* Зображення не повторюється */
 }
 
 .containerBig {
@@ -11,6 +14,15 @@
   flex-direction: column; /* Елементи в колонку */
   align-items: flex-start; /* Вирівнювання по лівому краю */
   padding: 20px;
+
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.068
+  ); /* Напівпрозорий білий фон для читабельності */
+  border-radius: 10px; /* Додаємо округлені кути */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Додаємо легку тінь */
 }
 
 /* Заголовок */
@@ -24,7 +36,7 @@
 
 .subTitle {
   font-size: 1.2rem;
-  color: #555;
+  color: #141414;
   margin-bottom: 50px;
 }
 
@@ -49,26 +61,31 @@
 .stats {
   display: flex;
   justify-content: space-evenly;
-  align-items: center; /* Вирівнювання по вертикалі */
-  background-color: #4b96e2; /* Світлий сірий фон */
+  align-items: center;
+  background-color: rgba(
+    75,
+    150,
+    226,
+    0.8
+  ); /* Зберігаємо колір, додаючи прозорість */
   padding: 20px;
-  margin: 100px auto; /* Автоматичне центрування */
+  margin: 100px auto;
   border-radius: 10px;
-  width: 80%; /* Задаємо ширину 80% від ширини вікна */
-  max-width: 1200px; /* Максимальна ширина */
-  min-width: 40px; /* Мінімальна ширина */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+  width: 80%;
+  max-width: 1200px;
+  min-width: 40px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .stats p {
   font-size: 1rem;
-  color: #fff; /* Білий текст для контрасту */
+  color: #2408a1; /* Білий текст для контрасту */
 }
 
 .stats span {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff; /* Інший колір для акценту */
+  color: #fff;
 }
 
 /* Адаптивність для екранів менших розмірів */
@@ -81,14 +98,14 @@
 /* Опис пропозицій */
 .offerTitle {
   font-size: 2rem;
-  color: #fff;
+  color: #180101;
   margin-bottom: 10px;
 }
 
 .description {
   font-size: 1rem;
-  color: #555;
-  line-height: 1.5;
+  color: #0b0372;
+  line-height: 1.8;
   margin-bottom: 40px;
 }
 

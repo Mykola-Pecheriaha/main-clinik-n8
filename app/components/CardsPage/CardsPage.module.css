@@ -1,23 +1,17 @@
 /* Контейнер для карточок */
 .cardContainer {
-  display: flex;
-  flex-wrap: wrap; /* Дозволяє переносити карточки на новий рядок */
-  justify-content: space-around; /* Рівномірний розподіл між карточками */
-  gap: 20px; /* Відступи між карточками */
-  padding: 20px; /* Внутрішні відступи для контейнера */
-  max-width: 1200px; /* Максимальна ширина для контейнера */
-  margin: 0 auto; /* Центрування контейнера */
+  display: flex; /* Використовуємо flexbox */
+  justify-content: space-between; /* Відступи між картками */
+  flex-wrap: wrap; /* Якщо ширини не вистачає, картки переносяться на новий ряд */
+  gap: 5px; /* Відстань між картками */
+  padding: 20px; /* Відступи від країв контейнера */
 }
 
-/* Карточки */
 .card {
-  background-color: #f8f9fa; /* Світлий фон */
-  border: 1px solid #ddd; /* Тонка рамка */
-  border-radius: 10px; /* Заокруглені кути */
-  width: 200px; /* Фіксована ширина карточки */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
-  overflow: hidden; /* Зрізає зайвий контент */
-  transition: transform 0.3s, box-shadow 0.3s; /* Анімація при наведенні */
+  flex: 1 0 calc(20% - 10px); /* Кожна картка займає приблизно 20% ширини */
+  max-width: calc(20% - 10px); /* Обмеження максимальної ширини */
+  min-width: 150px; /* Мінімальна ширина картки */
+  box-sizing: border-box; /* Урахування padding у розмірах */
 }
 
 .card:hover {

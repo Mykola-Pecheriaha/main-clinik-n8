@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #7db8df;
+  background: #72b5e2f1;
   color: #351c75;
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 .container {
-  padding: 20px;
+  padding: 5px;
   width: 100%;
   max-width: 1200px; /* Узгоджена ширина з хедером */
   margin: 0 auto;
@@ -43,6 +43,6 @@ a:hover {
   position: sticky; /* Фіксує елемент на екрані при прокручуванні */
   top: 0;
   z-index: 1000; /* Встановлює пріоритет, щоб було поверх інших елементів */
-  background-color: #ffffff; /* Задає фон для уникнення прозорості */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Опційно: додає тінь */
+  background-color: #c6f8a5f3; /* Задає фон для уникнення прозорості */
+  box-shadow: 0 2px 5px rgba(80, 77, 235, 0.432); /* Опційно: додає тінь */
 }

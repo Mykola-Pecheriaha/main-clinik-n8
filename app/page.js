@@ -5,8 +5,7 @@ import BigBord from './components/BigBort/BigBord'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h3> Головна сторінка </h3>
+    <div>
       <BigBord />
     </div>
   )
