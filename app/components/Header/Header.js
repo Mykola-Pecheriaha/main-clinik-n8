@@ -64,9 +64,7 @@ const Header = () => {
                 <Link href="/departament/palliative">
                   Паліативне відділення
                 </Link>
-                <Link href="/departament/polyclinic">
-                  Поліклінічне відділення
-                </Link>
+                <Link href="/departament/ambulatory">Амбулаторна допомога</Link>
               </div>
             )}
           </div>

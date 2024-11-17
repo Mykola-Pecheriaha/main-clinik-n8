@@ -1,0 +1,75 @@
+.maternityPagContainer {
+  display: flex; /* Розподіл елементів по горизонталі */
+  justify-content: space-between; /* Простір між блоками */
+  align-items: center; /* Вирівнювання по вертикалі */
+  gap: 20px; /* Відступ між текстом і зображенням */
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.maternityText {
+  flex: 1; /* Текст займає половину простору */
+  max-width: 50%;
+}
+
+.maternityTitle {
+  font-size: 2rem;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.maternityDescription {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.maternityButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.maternityButton:hover {
+  background-color: #0056b3;
+}
+
+.maternityImage {
+  flex: 1; /* Зображення займає половину простору */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%; /* Зображення адаптується до ширини контейнера */
+  border-radius: 10px; /* Закруглені кути (опціонально) */
+}
+
+@media (max-width: 768px) {
+  .maternityPagContainer {
+    flex-direction: column; /* На маленьких екранах елементи розташовуються вертикально */
+    text-align: center;
+  }
+
+  .maternityText {
+    max-width: 100%; /* Текст займає всю ширину */
+    margin-bottom: 20px;
+  }
+
+  .maternityImage {
+    max-width: 100%;
+  }
+}
+/* @media (max-width: 768px) {
+  .removalInfo {
+    flex-direction: column;
+    padding: 20px;
+  }
+} */

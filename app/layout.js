@@ -3,6 +3,7 @@ import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header/Header'
 import ContactsBar from './components/ContactsBar/ContactsBar'
+import Footer from './components/Footer/Footer'
 
 const inter = Inter({
   weight: ['400', '600', '800'],
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
           <Header />
         </div>
         <div className="container">{children}</div>
+        <Footer />
       </body>
     </html>
   )

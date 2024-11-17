@@ -15,7 +15,7 @@ const CardsPage = () => {
         title="Амбулаторна допомога"
         description="Амбулаторна медична допомога "
         imageUrl="/policlinic.jpg"
-        linkUrl="/departament/polyclinic"
+        linkUrl="/departament/ambulatory"
       />
       <Card
         title="Пологовий будинок"
