@@ -59,6 +59,7 @@ const Header = () => {
             {activeSubMenu === 'departments' && (
               <div className={styles.subMenu}>
                 <Link href="/departament/surgical">Хірургічні відділення</Link>
+                <Link href="/departament/reanimation">Реанімація</Link>
                 <Link href="/departament/therapy">Терапевтичні відділення</Link>
 
                 <Link href="/departament/palliative">

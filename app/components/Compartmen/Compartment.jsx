@@ -12,30 +12,47 @@ const Compartment = () => {
 
       {/* Секція з картками */}
       <div className={styles.cardContainer}>
-        <Card
-          title="Хірургічні відділення"
-          description="Стаціонарна медична допомога "
-          imageUrl="/stationar.jpg"
-          linkUrl="/departament/surgical"
-        />
-        <Card
-          title="Терапевтичні відділення"
-          description="Амбулаторна медична допомога "
-          imageUrl="/policlinic.jpg"
-          linkUrl="/departament/therapy"
-        />
-        <Card
-          title="Пологовий будинок"
-          description="Пологовий будинок"
-          imageUrl="/roddom.jpg"
-          linkUrl="/departament/maternity"
-        />
-        <Card
-          title="Паліативна допомога"
-          description="Паліативна допомога"
-          imageUrl="/paliativ.jpg"
-          linkUrl="/departament/palliative"
-        />
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Хірургічні відділення"
+            description="Стаціонарна медична допомога"
+            imageUrl="/stationar.jpg"
+            linkUrl="/departament/surgical"
+          />
+        </div>
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Реанімація"
+            description="Інтенсивна терапія"
+            imageUrl="/roddom.jpg"
+            linkUrl="/departament/reanimation"
+          />
+        </div>
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Терапевтичні відділення"
+            description="Амбулаторна медична допомога"
+            imageUrl="/policlinic.jpg"
+            linkUrl="/departament/therapy"
+          />
+        </div>
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Пологовий будинок"
+            description="Пологовий будинок"
+            imageUrl="/roddom.jpg"
+            linkUrl="/departament/maternity"
+          />
+        </div>
+
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Паліативна допомога"
+            description="Паліативна допомога"
+            imageUrl="/paliativ.jpg"
+            linkUrl="/departament/palliative"
+          />
+        </div>
       </div>
     </div>
   )
