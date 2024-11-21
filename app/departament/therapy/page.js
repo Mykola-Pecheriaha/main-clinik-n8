@@ -1,7 +1,12 @@
 import React from 'react'
+import InternDiseases from '../../components/InternDiseases/InternDiseases.jsx'
 
 const therapy = () => {
-  return <div>Сайт в розробці - терапія</div>
+  return (
+    <div>
+      <InternDiseases />
+    </div>
+  )
 }
 
 export default therapy

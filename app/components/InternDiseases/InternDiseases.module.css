@@ -1,0 +1,33 @@
+/* Заголовок */
+.headerSection {
+  background-image: url('/terapі4.jpg'); /* Шлях до зображення */
+  background-size: cover;
+  background-position: center;
+  height: 15cm; /* Фіксована висота */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTitle {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Контейнер для карток */
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Картки в рядок */
+  gap: 5px; /* Мінімальна відстань між картками */
+  padding: 5px; /* Зменшений внутрішній відступ контейнера */
+}
+/* Стилі картки */
+.cardWrapper {
+  margin: 0; /* Налаштуйте марджини за потреби */
+  padding: 0; /* Налаштуйте паддінги за потреби */
+  flex: 1; /* Це забезпечує рівний розподіл карток */
+}

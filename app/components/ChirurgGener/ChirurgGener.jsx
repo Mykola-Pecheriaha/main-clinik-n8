@@ -30,6 +30,14 @@ const ChirurgGener = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
+            title="Вертебрологія"
+            description="Стаціонарна медична допомога"
+            imageUrl="/policlinic.jpg"
+            linkUrl="/departament/surgical/vertebrology"
+          />
+        </div>
+        <div className={styles.cardWrapper}>
+          <Card
             title="Гінекологія"
             description="Стаціонарна медична допомога"
             imageUrl="/roddom.jpg"

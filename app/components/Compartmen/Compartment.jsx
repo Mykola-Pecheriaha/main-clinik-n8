@@ -31,7 +31,7 @@ const Compartment = () => {
         <div className={styles.cardWrapper}>
           <Card
             title="Терапевтичні відділення"
-            description="Амбулаторна медична допомога"
+            description="Стаціонарна медична допомога"
             imageUrl="/policlinic.jpg"
             linkUrl="/departament/therapy"
           />

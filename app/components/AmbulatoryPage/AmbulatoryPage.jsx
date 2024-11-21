@@ -32,9 +32,9 @@ const AmbulatoryPage = () => {
 
       <div className={styles.ambulatoryPageImage}>
         <Image
-          src="/polic.jpg" // Шлях до зображення з папки public
+          src="/policlinic1.jpg" // Шлях до зображення з папки public
           alt="Doctor"
-          width={500}
+          width={600}
           height={400}
           // className={styles.removalImage}
         />

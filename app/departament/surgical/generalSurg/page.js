@@ -1,8 +1,12 @@
 import React from 'react'
-import ChirurgGener from '../../../components/ChirurgGener/ChirurgGener'
+import FirstSurgery from '../../../components/FirstSurgery/FirstSurgery.jsx'
 
 const generalSurg = () => {
-  return <div>Сторінка в розробці</div>
+  return (
+    <div>
+      <FirstSurgery />
+    </div>
+  )
 }
 
 export default generalSurg
