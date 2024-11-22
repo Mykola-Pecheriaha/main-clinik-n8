@@ -1,10 +1,11 @@
 import React from 'react'
-import FirstSurgery from '../../../components/FirstSurgery/FirstSurgery.jsx'
+
+import BanerFirstSurgery from '../../../components/BanerFirstSurgery/BanerFirstSurgery.jsx'
 
 const generalSurg = () => {
   return (
     <div>
-      <FirstSurgery />
+      <BanerFirstSurgery />
     </div>
   )
 }
