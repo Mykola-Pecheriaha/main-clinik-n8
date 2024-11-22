@@ -8,17 +8,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.headerSection {
-  background-image: url('/chirurg.jpg'); /* Шлях до зображення */
-  background-size: cover;
-  background-position: center;
-  height: 15cm; /* Фіксована висота */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .firstSurgeryTitle {
   display: flex;
   align-items: center;
@@ -34,13 +23,17 @@
   background-color: #f7eaa1bd;
   border-bottom: 2px solid #9ca519;
 }
-
-.firstSurgeryImage img {
+.firstSurgeryImage {
   display: flex;
   flex-direction: column;
-  width: 50px;
+  align-items: center; /* Вирівнювання по центру */
+  gap: 20px; /* Відстань між зображеннями */
+}
+
+.firstSurgeryImage img {
+  width: 200px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 3%;
   border: 2px solid #1d1c1c;
 }
 
@@ -102,4 +95,14 @@
   font-size: 1em;
   color: #666;
   margin: 5px 0;
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .firstSurgeryTitle {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+  .firstSurgeryImage {
+    gap: 10px; /* Менший проміжок між зображеннями для компактності */
+  }
 }

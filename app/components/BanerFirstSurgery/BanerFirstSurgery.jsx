@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './BanerFirstSurgery.module.css'
 import FirstSurgery from '../../components/FirstSurgery/FirstSurgery'
+import Image from 'next/image'
 
 export default function BanerFirstSurgery() {
   return (
@@ -29,10 +30,10 @@ export default function BanerFirstSurgery() {
 
         <div className={styles.firstSurgeryImage}>
           <img
-            src="/Mykola.jpg" // Шлях до зображення з папки public
+            src="/department.jpg" // Шлях до зображення з папки public
             alt="Doctor"
-            width={200}
-            height={200}
+            width={600}
+            height={600}
             // className={styles.tunnelImage}
           />
         </div>

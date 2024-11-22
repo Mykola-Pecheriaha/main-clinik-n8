@@ -22,21 +22,21 @@
 .firstSurgeryTitle {
   display: flex;
   align-items: center;
-
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 .firstSurgeryText {
-  max-width: 70%;
+  max-width: 80%;
   background-color: #f7eaa1bd;
   border-bottom: 2px solid #9ca519;
+  border-radius: 2%;
 }
 
 .firstSurgeryText p {
-  list-style-type: disc;
   padding-left: 20px;
   margin-top: 10px;
   color: #555;
@@ -45,29 +45,21 @@
   overflow: hidden;
 }
 
-.firstSurgeryTitle {
-  display: flex;
-  align-items: center;
-
-  justify-content: space-between;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-.firstSurgeryText {
-  max-width: 70%;
-  background-color: #f7eaa1bd;
-  border-bottom: 2px solid #9ca519;
-}
-
 .firstSurgeryImage img {
   display: flex;
   flex-direction: column;
-  width: 50px;
+  width: 300px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 2%;
   border: 2px solid #1d1c1c;
+  gap: 30px;
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .firstSurgeryTitle {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
 }
 
 .firstSurgeryContainer h2 {
@@ -75,57 +67,4 @@
   margin-top: 20px; /* Відступ зверху */
   margin-bottom: 20px; /* Відступ знизу */
   font-size: 24px; /* Змінити розмір шрифту, якщо потрібно */
-}
-
-.firstSurgerySection h3 {
-  font-size: 1.4em;
-  color: #333;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #b2d3f1;
-  padding: 10px;
-  border-radius: 5px;
-  margin-top: 10px;
-  transition: background-color 0.3s;
-  border-bottom: 2px solid #0b52d4;
-}
-
-.firstSurgerySection h3:hover {
-  background-color: #0faae7;
-}
-
-.firstSurgerySection h3 span {
-  font-size: 0.8em;
-}
-
-.firstSurgerySection ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 10px;
-  color: #555;
-  line-height: 1.6;
-  transition: max-height 0.3s ease-out;
-  overflow: hidden;
-}
-
-.firstSurgerySection ul li {
-  padding: 5px 0;
-}
-
-.firstSurgeryText p {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 10px;
-  color: #555;
-  line-height: 1.6;
-  transition: max-height 0.3s ease-out;
-  overflow: hidden;
-}
-
-.children h4 {
-  font-size: 1em;
-  color: #666;
-  margin: 5px 0;
 }
