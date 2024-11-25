@@ -1,0 +1,51 @@
+.galleryWrapper {
+  margin-top: 30px; /* Відступ від попереднього компонента */
+  overflow: hidden; /* Приховує зайвий контент */
+}
+
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Прибирає скролінг */
+  position: relative;
+  width: 100%; /* Контейнер займає всю ширину */
+}
+
+.scrollButton {
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto; /* Дозволяє горизонтальний скролінг */
+  overflow-y: hidden; /* Забороняє вертикальний скролінг */
+  scroll-behavior: smooth; /* Плавний скролінг */
+  width: calc(
+    100% - 100px
+  ); /* Галерея займає всю ширину, крім місця для кнопок */
+  white-space: nowrap; /* Запобігає автоматичному переносу елементів */
+}
+
+.imageContainer {
+  flex-shrink: 0; /* Зупиняє масштабування зображень */
+  width: 500px; /* Ширина кожного зображення */
+  height: 600px; /* Висота кожного зображення */
+  margin-right: 10px; /* Відступ між зображеннями */
+  display: flex;
+  justify-content: center; /* Вирівнює зображення по центру */
+  align-items: center;
+}
+
+.imageContainer img {
+  width: 100%; /* Зображення займає всю ширину контейнера */
+  height: 100%; /* Зображення займає всю висоту контейнера */
+  object-fit: cover; /* Забезпечує коректне заповнення контейнера без спотворення */
+  display: block; /* Усуває зайвий простір навколо зображення */
+  background-color: #f0f0f0; /* Фоновий колір для порожніх областей */
+}

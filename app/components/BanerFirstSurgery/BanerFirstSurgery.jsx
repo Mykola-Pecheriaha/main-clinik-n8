@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './BanerFirstSurgery.module.css'
 import FirstSurgery from '../../components/FirstSurgery/FirstSurgery'
 import Image from 'next/image'
+import Gallery from '../Gallery/Gallery'
+import galleryImages from '../../../data/galleryImages'
 
 export default function BanerFirstSurgery() {
   return (
@@ -40,6 +42,7 @@ export default function BanerFirstSurgery() {
       </div>
 
       <FirstSurgery />
+      <Gallery images={galleryImages} />
     </div>
   )
 }
