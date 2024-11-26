@@ -3,15 +3,15 @@
   background-color: #f8f9fa; /* Світлий фон */
   border: 1px solid #ddd; /* Тонка рамка */
   border-radius: 10px; /* Заокруглені кути */
-  width: 200px; /* Фіксована ширина */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
   overflow: hidden; /* Зрізає зайвий контент */
   transition: transform 0.3s, box-shadow 0.3s; /* Анімація при наведенні */
   display: flex;
-  flex-direction: column; /* Розташування елементів зверху вниз */
+  flex-direction: column; /* Розташування елементів зверху вниз за замовчуванням */
   align-items: center;
   text-align: center; /* Центрування тексту */
   padding: 20px; /* Внутрішні відступи */
+  width: 200px; /* Ширина за замовчуванням */
 }
 
 .card:hover {
@@ -19,10 +19,26 @@
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Більш насичена тінь */
 }
 
-/* Зображення */
+/* Додатковий стиль для горизонтальної картки */
+.cardHorizontal {
+  flex-direction: row; /* Елементи розташовуються горизонтально */
+  align-items: flex-start; /* Вирівнювання по верхньому краю */
+  text-align: left; /* Текст вирівнюється зліва */
+  width: 100%; /* Ширина розтягується */
+  padding: 10px; /* Менші відступи */
+  height: 150px; /* Фіксована висота для горизонтальної картки */
+}
+
 .cardImage {
-  border-radius: 10px 10px 0 0; /* Заокруглення верхніх кутів */
+  border-radius: 10px; /* Заокруглення */
   object-fit: cover; /* Збереження пропорцій зображення */
+}
+
+/* Стиль зображення для горизонтальної картки */
+.cardHorizontal .cardImage {
+  width: 150px; /* Фіксована ширина для зображення */
+  height: 100%; /* Висота займає всю висоту картки */
+  margin-right: 15px; /* Відступ від текстової частини */
 }
 
 /* Заголовок */
@@ -33,11 +49,16 @@
   font-weight: bold;
 }
 
+/* Заголовок у горизонтальній картці */
+.cardHorizontal .cardTitle {
+  margin: 0 0 5px; /* Зменшені відступи */
+  font-size: 1rem;
+}
+
 /* Опис */
 .cardDescription {
   font-size: 0.8rem;
   color: #666;
-  /* margin: 10px 0 20px; */
 }
 
 /* Кнопка */

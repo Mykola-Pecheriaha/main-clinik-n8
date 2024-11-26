@@ -4,6 +4,7 @@ import FirstSurgery from '../../components/FirstSurgery/FirstSurgery'
 import Image from 'next/image'
 import Gallery from '../Gallery/Gallery'
 import galleryImages from '../../../data/galleryImages'
+import DoctorsDepartment from '../DoctorsDepartment/DoctorsDepartment'
 
 export default function BanerFirstSurgery() {
   return (
@@ -43,6 +44,7 @@ export default function BanerFirstSurgery() {
 
       <FirstSurgery />
       <Gallery images={galleryImages} />
+      <DoctorsDepartment />
     </div>
   )
 }

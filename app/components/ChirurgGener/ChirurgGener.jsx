@@ -30,7 +30,7 @@ const ChirurgGener = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Вертебрологія"
+            title="Відділення Вертебрології"
             description="Стаціонарна медична допомога"
             imageUrl="/policlinic.jpg"
             linkUrl="/departament/surgical/vertebrology"
@@ -38,7 +38,7 @@ const ChirurgGener = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Гінекологія"
+            title="Відділення гшнекології"
             description="Стаціонарна медична допомога"
             imageUrl="/roddom.jpg"
             linkUrl="/departament/surgical/gynecology "
@@ -46,7 +46,7 @@ const ChirurgGener = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Офтальмологія"
+            title="Відділення офтальмології"
             description="Стаціонарна медична допомога"
             imageUrl="/paliativ.jpg"
             linkUrl="/departament/surgical/ophthalmology"
@@ -54,7 +54,7 @@ const ChirurgGener = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Отоларингологія"
+            title="Відділення отоларингології"
             description="Стаціонарна медична допомога"
             imageUrl="/paliativ.jpg"
             linkUrl="/departament/surgical/otolaryngology"

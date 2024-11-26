@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.imageWrapper {
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  width: 60%;
+  height: 70%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+}
