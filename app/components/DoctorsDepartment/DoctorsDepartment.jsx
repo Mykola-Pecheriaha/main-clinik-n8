@@ -34,7 +34,7 @@ const DoctorsDepartment = () => {
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Печеряга Микола Миколайович"
-            description="Лікар-хірург. 1995р. - закінчив Одеський державний медичний університет . Категорія - Вища."
+            description="Лікар-хірург. 1995р. - закінчив Одеський державний медичний університет з відзнакою . Категорія - Вища."
             imageUrl="/images/doctors/pecheriaha.jpg"
             layout="horizontal"
             customStyles={{
@@ -49,7 +49,7 @@ const DoctorsDepartment = () => {
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Бамбизов ЛеонідМихайлович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
+            description="Лікар-хірург. Наукова ступень -кандидат медичних наук, вчене звання - доцент 1993р. - закінчив Запорізький державний медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/bambizov.jpg"
             layout="horizontal"
             customStyles={{
@@ -63,7 +63,7 @@ const DoctorsDepartment = () => {
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Андрушкова Юліана Анатоліївна"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
+            description="Лікар-хірург. 2019р. - закінчив Буковинський державний медичний університет. Категорія - друга."
             imageUrl="/images/doctors/andrushcova.jpg"
             layout="horizontal"
             customStyles={{
@@ -119,7 +119,7 @@ const DoctorsDepartment = () => {
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Кубеєв Сергій Германович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
+            description="Лікар-урологю  1993р. - закінчив Чернівецький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/pizic.jpg"
             layout="horizontal"
             customStyles={{

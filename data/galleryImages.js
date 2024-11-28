@@ -1,7 +1,5 @@
 const galleryImages = [
   '/images/gallery/oftalm9.jpg',
-  '/images/gallery/oftalm8.jpg',
-  '/images/gallery/oftalm5.jpg',
   '/images/gallery/chirurg10.jpg',
   '/images/gallery/chirurg11.jpg',
   '/images/gallery/chirurg14.jpg',
@@ -18,9 +16,7 @@ const galleryImages = [
   '/images/gallery/oper13.jpg',
   '/images/gallery/oper14.jpg',
   '/images/gallery/oper15.jpg',
-  '/images/gallery/oper16.jpg',
   '/images/gallery/oper17.jpg',
-  '/images/gallery/oper18.jpg',
   '/images/gallery/oper19.jpg',
   '/images/gallery/oper23.jpg',
   '/images/gallery/oper25.jpg',
