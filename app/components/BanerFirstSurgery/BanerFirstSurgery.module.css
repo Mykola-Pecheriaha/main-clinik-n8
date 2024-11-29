@@ -9,7 +9,7 @@
 }
 
 .headerSection {
-  background-image: url('/chirurg.jpg'); /* Шлях до зображення */
+  background-image: url('/chirurgFirst.JPG'); /* Шлях до зображення */
   background-size: cover;
   background-position: center;
   height: 15cm; /* Фіксована висота */
@@ -66,5 +66,6 @@
   text-align: center; /* Центрування тексту по горизонталі */
   margin-top: 20px; /* Відступ зверху */
   margin-bottom: 20px; /* Відступ знизу */
-  font-size: 24px; /* Змінити розмір шрифту, якщо потрібно */
+  color: aqua;
+  font-size: 1.6em;
 }

@@ -42,6 +42,7 @@
   margin-top: 20px; /* Відступ зверху */
   margin-bottom: 20px; /* Відступ знизу */
   font-size: 24px; /* Змінити розмір шрифту, якщо потрібно */
+  color: #5277dd;
 }
 
 .firstSurgerySection h3 {
@@ -61,7 +62,7 @@
 }
 
 .firstSurgerySection h3:hover {
-  background-color: #0faae7;
+  background-color: #0b8cbe;
 }
 
 .firstSurgerySection h3 span {
@@ -107,7 +108,7 @@
 }
 
 .firstSurgeryText h5 {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #f107ca;
   margin: 5px 0;
   padding-top: 10px;

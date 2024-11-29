@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.headerSection h2 {
+  color: dodgerblue;
+}
+
 .headerTitle {
   font-size: 3rem;
   font-weight: bold;
