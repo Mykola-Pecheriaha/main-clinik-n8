@@ -126,9 +126,20 @@
   color: #e72b6a;
 }
 
+.firstSurgeryText em {
+  font-size: 1.3em;
+  color: #045a45;
+}
+
 .firstSurgeryText u {
   font-size: 1.2em;
   color: #5277dd;
+}
+
+.firstSurgeryText i {
+  font-size: 1.2em;
+  color: #0a7718;
+  background-color: #567ff038;
 }
 
 /* Адаптивність для екранів менших розмірів */
