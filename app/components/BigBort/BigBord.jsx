@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './BigBort.module.css'
+import Link from 'next/link'
 import CardsPage from '../CardsPage/CardsPage'
 
 const BigBord = () => {
@@ -13,7 +14,10 @@ const BigBord = () => {
         </h4>
 
         {/* Кнопка "Зв'язатися з нами" */}
-        <button className={styles.contactButton}>Зв'язатися з нами</button>
+        {/* Використовуємо Link для кнопки */}
+        <Link href="/hospital/contacts">
+          <button className={styles.contactButton}>Зв'язатися з нами</button>
+        </Link>
       </div>
       {/* Статистика */}
       <div className={styles.stats}>

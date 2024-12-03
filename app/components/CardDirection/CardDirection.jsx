@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './CardsDoctors.module.css'
+import styles from './CardDirection.module.css'
 
-const CardsDoctors = ({
+const CardDirection = ({
   title,
   description,
   imageUrl,
-  layout = 'vertical', // Горизонтальне або вертикальне розташування
-  imageFlex = 1, // Пропорція зображення
-  textFlex = 1, // Пропорція тексту
+  layout = 'vertical',
+  imageFlex = 1,
+  textFlex = 1,
 }) => {
   return (
     <div
@@ -20,8 +20,8 @@ const CardsDoctors = ({
         <Image
           src={imageUrl}
           alt={title}
-          width={200}
-          height={300}
+          width={300}
+          height={400}
           className={styles.image}
         />
       </div>
@@ -33,4 +33,4 @@ const CardsDoctors = ({
   )
 }
 
-export default CardsDoctors
+export default CardDirection

@@ -1,26 +1,24 @@
 import React from 'react'
-// import Card from '../Card/Card.jsx'
+import styles from './Direction.module.css'
+import CardDirection from '../CardDirection/CardDirection'
 
-import styles from './DoctorsDepartment.module.css'
-import CardsDoctors from '../CardsDoctors/CardsDoctors.jsx'
-
-const DoctorsDepartment = () => {
+const Direction = () => {
   return (
     <div>
       {/* Заголовок з фоном */}
       <div className={styles.headerSection}>
-        <h2 className={styles.headerTitle}>Лікарі Відділення</h2>
+        <h1 className={styles.headerTitle}> Адміністрація лікарні</h1>
       </div>
 
       {/* Секція з картками */}
       <div className={styles.cardContainer}>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Пижик Валентин Анатолієвич"
-            description={`лікар-хірург, Заслужений лікар України\n
-1976р. - закінчив Вінницький медичний інститут\n
+          <CardDirection
+            title=" Проц Віктор Йосипович"
+            description={`Генеральний директор, Заслужений лікар України.\n
+1980р. - закінчив Чернівецький медичний інститут\n
 категорія - Вища`}
-            imageUrl="/images/doctors/pizic.jpg"
+            imageUrl="/images/administratia/proz2.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
@@ -32,10 +30,10 @@ const DoctorsDepartment = () => {
         </div>
 
         <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Печеряга Микола Миколайович"
-            description="Лікар-хірург. 1995р. - закінчив Одеський державний медичний університет з відзнакою . Категорія - Вища."
-            imageUrl="/images/doctors/pecheriaha.jpg"
+          <CardDirection
+            title="Кіршенблат Володимир Яковлевич"
+            description="Медичний директор. 1980р. - закінчив чернівецький медичний інститут . Категорія - Вища."
+            imageUrl="/images/administratia/cirshenblat3.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
@@ -46,8 +44,12 @@ const DoctorsDepartment = () => {
           />
         </div>
 
+        <div className={styles.headerSection}>
+          <h1 className={styles.headerTitle}> Заступники</h1>
+        </div>
+
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Бамбизов ЛеонідМихайлович"
             description="Лікар-хірург. Наукова ступень -кандидат медичних наук, вчене звання - доцент 1993р. - закінчив Запорізький державний медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/bambizov.jpg"
@@ -61,7 +63,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Андрушкова Юліана Анатоліївна"
             description="Лікар-хірург. 2019р. - закінчив Буковинський державний медичний університет. Категорія - друга."
             imageUrl="/images/doctors/andrushcova.jpg"
@@ -75,7 +77,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Грудецький Віталій Віталійович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/grugezcy.jpg"
@@ -89,7 +91,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Карпенко Олександир Вікторович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/karptnco.jpg"
@@ -103,7 +105,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Фомін Андрій Борисович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/fomin.jpg"
@@ -117,7 +119,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Кубеєв Сергій Германович"
             description="Лікар-урологю  1993р. - закінчив Чернівецький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/kubeyev.jpg"
@@ -131,7 +133,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Курій Микола Іванович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/kuriy.jpg"
@@ -145,7 +147,7 @@ const DoctorsDepartment = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardsDoctors
+          <CardDirection
             title="Блискун Володимир Юрійович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/doctors/pizic.jpg"
@@ -163,4 +165,4 @@ const DoctorsDepartment = () => {
   )
 }
 
-export default DoctorsDepartment
+export default Direction

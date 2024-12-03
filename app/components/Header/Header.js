@@ -33,7 +33,8 @@ const Header = () => {
       <div className={styles.headerRignt}>
         <nav className={styles.nav}>
           <Link href="/">Головна</Link>
-          <Link href="/news">Новини</Link>
+
+          {/* субменю */}
 
           <div
             className={styles.menuItem}
@@ -43,9 +44,32 @@ const Header = () => {
             <Link href="/hospital">Про лікарню</Link>
             {activeSubMenu === 'hospital' && (
               <div className={styles.subMenu}>
-                <Link href="/hospital/about">Про нас</Link>
-                <Link href="/hospital/team">Наша команда</Link>
+                <Link href="/hospital/about">Загальне про нас</Link>
                 <Link href="/hospital/history">Історія</Link>
+                <Link href="/hospital/administration">Керівництво</Link>
+                <Link href="/hospital/structure">Структура лікарні</Link>
+                <Link href="/hospital/contacts">Контакти</Link>
+                {/* <Link href="/hospital/history">Історія</Link> */}
+                {/* <Link href="/hospital/history">Історія</Link> */}
+                <Link href="/hospital/team">Наша команда</Link>
+                {/* <Link href="/hospital/history">Історія</Link> */}
+              </div>
+            )}
+          </div>
+
+          {/* <Link href="/news">Новини</Link> */}
+
+          <div
+            className={styles.menuItem}
+            onMouseEnter={() => handleSubMenuToggle('news')}
+            onMouseLeave={() => handleSubMenuToggle(null)}
+          >
+            <Link href="/news">Новини</Link>
+            {activeSubMenu === 'news' && (
+              <div className={styles.subMenu}>
+                <Link href="/news/message">Повідомлення</Link>
+                <Link href="/news/advice">Поради лікаря</Link>
+                <Link href="/news/write ">Пишуть про нас</Link>
               </div>
             )}
           </div>

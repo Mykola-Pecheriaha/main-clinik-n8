@@ -1,0 +1,59 @@
+.headerSection {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  border-bottom: 5px solid #faf8f8;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #9b1010;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.cardWrapper {
+  margin-bottom: 20px; /* Задає відстань між картками */
+}
+
+.imageWrapper {
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  width: 60%;
+  height: 80%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2, 0rem;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+}

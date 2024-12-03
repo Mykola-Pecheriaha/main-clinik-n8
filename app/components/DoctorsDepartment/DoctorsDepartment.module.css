@@ -101,3 +101,14 @@
   flex-direction: column;
   justify-content: center;
 }
+/* .cardContainer {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+} */
+
+/* .cardWrapper {
+  display: flex; 
+  justify-content: center;
+} */
