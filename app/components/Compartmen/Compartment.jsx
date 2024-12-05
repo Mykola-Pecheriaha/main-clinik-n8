@@ -15,14 +15,14 @@ const Compartment = () => {
         <div className={styles.cardWrapper}>
           <Card
             title="Хірургічні відділення"
-            description="Стаціонарна медична допомога"
+            description="Стаціонарна  допомога"
             imageUrl="/stationar.jpg"
             linkUrl="/departament/surgical"
           />
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Реанімація"
+            title="Реанімація і інтенсивна Т"
             description="Інтенсивна терапія"
             imageUrl="/roddom.jpg"
             linkUrl="/departament/reanimation"
@@ -31,7 +31,7 @@ const Compartment = () => {
         <div className={styles.cardWrapper}>
           <Card
             title="Терапевтичні відділення"
-            description="Стаціонарна медична допомога"
+            description="Стаціонарна  допомога"
             imageUrl="/policlinic.jpg"
             linkUrl="/departament/therapy"
           />
