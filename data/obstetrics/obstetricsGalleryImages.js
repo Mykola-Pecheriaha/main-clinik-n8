@@ -1,0 +1,22 @@
+const obstetricsGalleryImages = [
+  '/images/obstetricsgall/akush2.jpg',
+  '/images/obstetricsgall/akush3.jpg',
+  '/images/obstetricsgall/akush4.jpg',
+  '/images/obstetricsgall/akush5.jpg',
+  '/images/obstetricsgall/akush6.jpg',
+  '/images/obstetricsgall/akush7.jpg',
+  '/images/obstetricsgall/akush8.jpg',
+  '/images/obstetricsgall/akush9.jpg',
+  '/images/obstetricsgall/akush10.jpg',
+  '/images/obstetricsgall/akush11.jpg',
+  '/images/obstetricsgall/akush12.jpg',
+  '/images/obstetricsgall/akush13.jpg',
+  '/images/obstetricsgall/akush14.jpg',
+  '/images/obstetricsgall/akush15.jpg',
+  '/images/obstetricsgall/akush16.jpg',
+  '/images/obstetricsgall/akush17.jpg',
+  '/images/obstetricsgall/akush18.jpg',
+  '/images/obstetricsgall/akush19.jpg',
+  '/images/obstetricsgall/akush20.jpg',
+]
+export default obstetricsGalleryImages

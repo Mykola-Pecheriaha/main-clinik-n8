@@ -1,0 +1,153 @@
+.materObstetricsContainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #e5f0a8bd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.materObstetricsTitle {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.materObstetricsText {
+  max-width: 70%;
+  background-color: #f7eaa1bd;
+  border-bottom: 2px solid #9ca519;
+}
+.materObstetricsImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Вирівнювання по центру */
+  gap: 20px; /* Відстань між зображеннями */
+}
+
+.materObstetricsImage img {
+  width: 280px;
+  height: auto;
+  border-radius: 3%;
+  border: 2px solid #1d1c1c;
+}
+
+.materObstetricsContainer h2 {
+  text-align: center; /* Центрування тексту по горизонталі */
+  margin-top: 20px; /* Відступ зверху */
+  margin-bottom: 20px; /* Відступ знизу */
+  font-size: 24px; /* Змінити розмір шрифту, якщо потрібно */
+  color: #5277dd;
+}
+
+.materObstetricsSection h3 {
+  font-size: 1.4em;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b2d3f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  border-bottom: 2px solid #0b52d4;
+}
+
+.materObstetricsSection h3:hover {
+  background-color: #0b8cbe;
+}
+
+.materObstetricsSection h3 span {
+  font-size: 0.8em;
+}
+
+.materObstetricsSection ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #252222;
+  line-height: 1.6;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.materObstetricsSection ul li {
+  padding: 5px 0;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+.materObstetricsText p {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.6;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.materObstetricsText h4 {
+  font-size: 1.1em;
+  color: #e6076f;
+  margin: 5px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.materObstetricsText h5 {
+  font-size: 1.5em;
+  color: #f107ca;
+  margin: 5px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.materObstetricsText strong {
+  font-size: 1.2em;
+  color: #0b52d4;
+}
+
+.materObstetricsText b {
+  font-size: 1.3em;
+  color: #e72b6a;
+}
+
+.materObstetricsText em {
+  font-size: 1.3em;
+  color: #045a45;
+}
+
+.materObstetricsText u {
+  font-size: 1.2em;
+  color: #5277dd;
+}
+
+.materObstetricsText i {
+  font-size: 1.2em;
+  color: #0a7718;
+  background-color: #567ff038;
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .materObstetricsTitle {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+  .materObstetricsImage {
+    gap: 10px; /* Менший проміжок між зображеннями для компактності */
+  }
+}
