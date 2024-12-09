@@ -1,7 +1,12 @@
 import React from 'react'
+import ReanimationBaner from '../../components/ReanimationBaner/ReanimationBaner.jsx'
 
 const reanimation = () => {
-  return <div>сторінка в розробці - реанімація</div>
+  return (
+    <div>
+      <ReanimationBaner />
+    </div>
+  )
 }
 
 export default reanimation

@@ -1,0 +1,101 @@
+.reanimationBanerContainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #eff1e4bd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headerSection {
+  background-image: url('/images/reanimation/reanim1.JPG'); /* Шлях до зображення */
+  background-size: cover; /* Фон заповнює всю секцію */
+  background-repeat: no-repeat; /* Забороняє повторення */
+  background-position: top; /* Закріплює верхню частину зображення */
+  height: 15cm; /* Фіксована висота */
+
+  padding: 0 10%; /* Відступи з боків для меж */
+  position: relative; /* Відносне позиціонування для розміщення тексту */
+  margin-bottom: 30px;
+}
+
+.reanimationBanerName {
+  position: absolute; /* Абсолютне позиціонування */
+  top: 75%; /* Встановлює текст на 2/3 висоти секції */
+  left: 50%; /* Центрує текст по горизонталі */
+  transform: translateX(-50%); /* Вирівнює текст точно по центру */
+  color: rgb(152, 13, 194); /* Контрастний колір для тексту */
+  font-size: 2em;
+  font-weight: bold;
+  background: rgba(241, 237, 237, 0.055); /* Напівпрозорий фон */
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center; /* Вирівнювання тексту по центру */
+}
+
+.reanimationBanerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+
+  gap: 10px;
+}
+
+.reanimationBanerText {
+  max-width: 80%;
+  background-color: #abeaecbd;
+  border-bottom: 2px solid #0b83d3;
+  border-radius: 2%;
+}
+
+.reanimationBanerText p {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #555;
+  line-height: 1.6;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+/* .maternBanerImage img {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  border-radius: 2%;
+  border: 2px solid #1d1c1c;
+  gap: 30px;
+} */
+
+.reanimationBanerImage {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reanimationBanerImage img {
+  width: 300px;
+  height: auto; /* Збереження пропорцій */
+  border-radius: 2%;
+  border-bottom: 2px solid #309bd8;
+  object-fit: contain; /* Гарантує, що зображення повністю поміщається */
+}
+
+/* Адаптивність для екранів менших розмірів */
+@media (max-width: 768px) {
+  .reanimationBanerTitle {
+    flex-direction: column; /* Вертикальне розташування елементів на менших екранах */
+  }
+}
+
+.reanimationBanerContainer h2 {
+  text-align: center; /* Центрування тексту по горизонталі */
+  margin-top: 20px; /* Відступ зверху */
+  margin-bottom: 40px; /* Відступ знизу */
+  color: rgb(6, 131, 43);
+  font-size: 1.8em;
+}

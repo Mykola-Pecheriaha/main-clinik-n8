@@ -33,7 +33,8 @@ export default function ContactsBar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            м.Чернівці. вул.Героїв Майдану 226. (вхід з вул.Рівенської)
+            корпус 1 вул.Героїв Майдану 226, (вхід з вул.Рівенська), Chernivtsi,
+            Ukraine
           </a>
         </p>
         <a

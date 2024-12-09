@@ -28,7 +28,7 @@ const Gallery = ({ images }) => {
               <Image
                 src={image}
                 alt={`Gallery Image ${index + 1}`}
-                width={500}
+                width={600}
                 height={400} // Вказуємо фіксовані розміри
                 priority={index === 0} // Перший елемент завантажується швидше
               />

@@ -50,9 +50,9 @@ const Direction = () => {
 
         <div className={styles.cardWrapper}>
           <CardDirection
-            title="Бамбизов ЛеонідМихайлович"
-            description="Лікар-хірург. Наукова ступень -кандидат медичних наук, вчене звання - доцент 1993р. - закінчив Запорізький державний медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/bambizov.jpg"
+            title="Клічук Лариса Володимирівна"
+            description="Заступник генерального директора з медичного маркетингу та адміністрування. 1993р. - Буковинський державний медичний університет. Категорія - Вища."
+            imageUrl="/images/administratia/clichukі.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
@@ -64,9 +64,9 @@ const Direction = () => {
         </div>
         <div className={styles.cardWrapper}>
           <CardDirection
-            title="Андрушкова Юліана Анатоліївна"
-            description="Лікар-хірург. 2019р. - закінчив Буковинський державний медичний університет. Категорія - друга."
-            imageUrl="/images/doctors/andrushcova.jpg"
+            title="Ткачик Світлана Ярославівна"
+            description="Зазступник медичного директора з контролю якості медичного обслуговування. 199хр. - закінчила Буковинський державний медичний університет. Категорія - вища."
+            imageUrl="/images/administratia/tkachik.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
@@ -76,81 +76,12 @@ const Direction = () => {
             }}
           />
         </div>
+
         <div className={styles.cardWrapper}>
           <CardDirection
-            title="Грудецький Віталій Віталійович"
+            // title="Блискун Володимир Юрійович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/grugezcy.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            title="Карпенко Олександир Вікторович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/karptnco.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            title="Фомін Андрій Борисович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/fomin.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            title="Кубеєв Сергій Германович"
-            description="Лікар-урологю  1993р. - закінчив Чернівецький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/kubeyev.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            title="Курій Микола Іванович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/kuriy.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            title="Блискун Володимир Юрійович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/pizic.jpg"
+            // imageUrl="/images/doctors/pizic.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,

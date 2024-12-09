@@ -5,7 +5,8 @@ const Footer = () => {
   const contacts = {
     phone: '+1234567890',
     email: 'example@example.com',
-    address: 'м.Чернівці. вул.Героїв Майдану 226. (вхід з вул.Рівенська)',
+    address:
+      'корпус 1 вул.Героїв Майдану 226, (вхід з вул.Рівенська), Chernivtsi, Ukraine',
     socials: {
       facebook: 'https://www.facebook.com/profile.php?id=100083562030873',
       instagram: 'https://instagram.com',
