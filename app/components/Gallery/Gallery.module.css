@@ -1,59 +1,56 @@
 .galleryWrapper {
-  margin-top: 30px; /* Відступ від попереднього компонента */
-  overflow: hidden; /* Приховує зайвий контент */
-}
-
-.galleryContainer {
   display: flex;
   align-items: center;
-  overflow: hidden; /* Прибирає скролінг */
   position: relative;
-  width: 100%; /* Контейнер займає всю ширину */
-}
-
-.scrollButton {
-  background: #0070f3;
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
+  width: 90%; /* Галерея займає всю ширину сторінки */
+  overflow: hidden;
+  padding: 20px; /* Додатковий відступ навколо галереї */
 }
 
 .gallery {
   display: flex;
-  overflow-x: auto; /* Дозволяє горизонтальний скролінг */
-  overflow-y: hidden; /* Забороняє вертикальний скролінг */
+  overflow-x: auto; /* Увімкнення горизонтального скролінгу */
   scroll-behavior: smooth; /* Плавний скролінг */
-  width: calc(
-    100% - 100px
-  ); /* Галерея займає всю ширину, крім місця для кнопок */
-  white-space: nowrap; /* Запобігає автоматичному переносу елементів */
+  scrollbar-width: none; /* Вимкнення скролбару для Firefox */
+  white-space: nowrap; /* Запобігає переносу елементів на новий рядок */
+}
+
+.gallery::-webkit-scrollbar {
+  display: none; /* Вимкнення скролбару для Chrome */
 }
 
 .imageContainer {
-  flex-shrink: 0; /* Зупиняє масштабування зображень */
-  width: 500px; /* Ширина кожного зображення */
-  height: 600px; /* Висота кожного зображення */
-  margin-right: 10px; /* Відступ між зображеннями */
+  flex-shrink: 0; /* Забороняє зображенням стискатися */
+  width: 400px; /* Нова ширина для збільшення зображень */
+  height: 350px; /* Нова висота для збільшення зображень */
+  margin-right: 20px; /* Відступ між зображеннями */
+  overflow: hidden; /* Приховує частини зображень, що виходять за межі контейнера */
+  position: relative; /* Для коректної роботи next/image */
+  border-radius: 8px; /* Закруглення кутів (опціонально) */
+}
+
+.scrollButton {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 15px; /* Збільшено розмір кнопок */
+  cursor: pointer;
+  font-size: 28px; /* Збільшено розмір шрифту кнопок */
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px; /* Збільшено ширину кнопок */
+  height: 50px; /* Збільшено висоту кнопок */
   display: flex;
-  justify-content: center; /* Вирівнює зображення по центру */
   align-items: center;
+  justify-content: center;
 }
 
-.imageContainer img {
-  width: 100%; /* Зображення займає всю ширину контейнера */
-  height: auto; /* Зображення займає всю висоту контейнера */
-  object-fit: contain; /* Зберігає пропорції зображення та вписує його в контейнер */
-  /* object-fit: cover, */
-  display: block; /* Усуває зайвий простір навколо зображення */
-  background-color: #f0f0f0; /* Фоновий колір для порожніх областей */
+.scrollButton:first-of-type {
+  left: 20px; /* Відступ зліва */
 }
 
-@media (max-width: 768px) {
-  .imageContainer {
-    width: 100%; /* Контейнер займатиме всю ширину */
-    height: auto; /* Автоматична висота */
-  }
+.scrollButton:last-of-type {
+  right: 20px; /* Відступ справа */
 }

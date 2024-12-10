@@ -1,7 +1,12 @@
 import React from 'react'
+import BanerSecondTherapy from '../../../components/BanerSecondTherapy/BanerSecondTherapy'
 
 const secundTherapy = () => {
-  return <div>Сторінка в розробці - терапія №2</div>
+  return (
+    <div>
+      <BanerSecondTherapy />
+    </div>
+  )
 }
 
 export default secundTherapy
