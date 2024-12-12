@@ -9,7 +9,7 @@ const MaternityPage = () => {
     <section className={styles.maternityPagContainer}>
       <div className={styles.maternityImage}>
         <Image
-          src="/maternity1.jpg" // Шлях до зображення з папки public
+          src="/maternity2.jpg" // Шлях до зображення з папки public
           alt="Doctor"
           width={400}
           height={400}

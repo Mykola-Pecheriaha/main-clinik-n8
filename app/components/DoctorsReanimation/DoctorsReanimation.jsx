@@ -62,8 +62,8 @@ const DoctorsReanimation = () => {
         </div>
         <div className={styles.cardWrapper}>
           <CardsDoctors
-            title="Варфоломієв Владислав Васильович"
-            description="Лікар-хірург. 2019р. - закінчив Буковинський державний медичний університет. Категорія - друга."
+            title="Варфоломієв Владислав Вадимович"
+            description="Лікар-хірург. 2020р. - закінчив Буковинський державний медичний університет. Категорія - друга."
             imageUrl="/images/reanimation/reanim6.JPG"
             layout="horizontal"
             customStyles={{
@@ -76,8 +76,8 @@ const DoctorsReanimation = () => {
         </div>
         <div className={styles.cardWrapper}>
           <CardsDoctors
-            title=" Олександир "
-            description="Лікар-анестезіолог,  2017р. - закінчив Вінницький медичний інститут. Категорія - Вища."
+            title="Белінський Олександир Володимирович"
+            description="Лікар-анестезіолог,  2022р. - закінчив Буковинський Державний медичний університет. Категорія - .."
             imageUrl="/images/reanimation/reanim5.JPG"
             layout="horizontal"
             customStyles={{
@@ -90,8 +90,8 @@ const DoctorsReanimation = () => {
         </div>
         <div className={styles.cardWrapper}>
           <CardsDoctors
-            title=" Анастасія "
-            description="Лікар-анестезіолог,  2019р. - закінчив Чернівецький Державний медичний університет. Категорія - друга."
+            title="Бологан Анастасія Вікторівна"
+            description="Лікар-анестезіолог,  2019р. - закінчила Чернівецький Державний медичний університет. Категорія - .."
             imageUrl="/images/reanimation/reanim14.JPG"
             layout="horizontal"
             customStyles={{
@@ -102,48 +102,7 @@ const DoctorsReanimation = () => {
             }}
           />
         </div>
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Фомін Андрій Борисович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/fominм.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Кубеєв Сергій Германович"
-            description="Лікар-урологю  1993р. - закінчив Чернівецький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/kubeyevм.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Курій Микола Іванович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/kuriyм.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
+
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Блискун Володимир Юрійович"

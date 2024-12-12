@@ -59,7 +59,7 @@ export default function ReanimationBaner() {
 
       <ReanimFirstCorp />
 
-      {/* <Gallery images={secondTherapy} /> */}
+      <Gallery images={reanimatiomGalleryImages} />
       <DoctorsReanimation />
     </div>
   )
