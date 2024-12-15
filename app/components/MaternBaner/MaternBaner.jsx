@@ -4,6 +4,7 @@ import Image from 'next/image'
 import MaterObstetrics from '../../components/MaterObstetrics/MaterObstetrics'
 import Gallery from '../Gallery/Gallery'
 import obstetricsGalleryImages from '../../../data/obstetrics/obstetricsGalleryImages'
+import DoctorsObstetrics from '../DoctorsObstetrics/DoctorsObstetrics'
 
 export default function MaternBaner() {
   return (
@@ -60,12 +61,11 @@ export default function MaternBaner() {
         </div>
 
         <div className={styles.maternBanerImage}>
-          <img
+          <Image
             src="/images/pologhaus/akush2.jpg" // Шлях до зображення з папки public
             alt="Doctor"
             width={600}
             height={500}
-            // className={styles.tunnelImage}
           />
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function MaternBaner() {
       <MaterObstetrics />
 
       <Gallery images={obstetricsGalleryImages} />
-      {/* <DoctorsDepartment /> */}
+      <DoctorsObstetrics />
     </div>
   )
 }

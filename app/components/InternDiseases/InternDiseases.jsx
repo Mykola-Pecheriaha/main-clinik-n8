@@ -16,7 +16,7 @@ const InternDiseases = () => {
       <div className={styles.cardContainer}>
         <div className={styles.cardWrapper}>
           <Card
-            title="Терапевтичне відділення №1"
+            title="Терапевтичне відділення №1 - Головна 100"
             description="Стаціонарна медична допомога"
             imageUrl="/stationar.jpg"
             linkUrl="/departament/therapy/primaTherapy"
@@ -24,12 +24,22 @@ const InternDiseases = () => {
         </div>
         <div className={styles.cardWrapper}>
           <Card
-            title="Терапевтичне відділення №2"
+            title="Терапевтичне відділення №2 - Г.Майдану 226"
             description="Стаціонарна медична допомога"
             imageUrl="/policlinic.jpg"
             linkUrl="/departament/therapy/secundTherapy"
           />
         </div>
+
+        <div className={styles.cardWrapper}>
+          <Card
+            title="Терапевтичне відділення №3 - і.Підкови 14"
+            description="Стаціонарна медична допомога"
+            imageUrl="/policlinic.jpg"
+            linkUrl="/departament/therapy/terzTherapy"
+          />
+        </div>
+
         <div className={styles.cardWrapper}>
           <Card
             title="Неврологія"

@@ -15,7 +15,7 @@ const Gallery = ({ images }) => {
 
   const scrollRight = () => {
     if (galleryRef.current) {
-      galleryRef.current.scrollBy({ left: 150, behavior: 'smooth' })
+      galleryRef.current.scrollBy({ left: 100, behavior: 'smooth' })
     }
   }
 

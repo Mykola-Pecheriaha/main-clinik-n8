@@ -37,8 +37,7 @@
   border-radius: 15px; /* М'які краї */
 }
 
-/* Кастомні стилі карток */
-/* .customCard {
+Кастомні стилі карток .customCard {
   background-color: #fffbea;
   padding: 30px;
   border: 2px solid #f0ad4e;
@@ -46,8 +45,7 @@
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   height: 300px;
-  
-} */
+}
 
 .customCard {
   display: flex; /* Робимо дочірні елементи флекс-елементами */
@@ -66,12 +64,12 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* .customCardImage {
+.customCardImage {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 15px;
-} */
+}
 
 .customCardImage {
   flex: 5; /* Зображення займає більшу частину */

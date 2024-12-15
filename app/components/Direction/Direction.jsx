@@ -76,21 +76,6 @@ const Direction = () => {
             }}
           />
         </div>
-
-        <div className={styles.cardWrapper}>
-          <CardDirection
-            // title="Блискун Володимир Юрійович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            // imageUrl="/images/doctors/pizic.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
       </div>
     </div>
   )

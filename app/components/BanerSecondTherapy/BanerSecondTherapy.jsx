@@ -11,7 +11,7 @@ export default function BanerSecondTherapy() {
     <div className={styles.banerSecondTherapyContainer}>
       <div className={styles.headerSection}>
         <h2 className={styles.banerSecondTherapyName}>
-          Відділення інтенсивної терапії та анестезіології
+          Терапевтичне відділення №3
         </h2>
       </div>
 

@@ -1,7 +1,12 @@
 import React from 'react'
+import BanerPrimaTherapy from '../../../components/BanerPrimaTherapy/BanerPrimaTherapy.jsx'
 
 const primaTherapy = () => {
-  return <div>Сторінк в розробці - терапія №1</div>
+  return (
+    <div>
+      <BanerPrimaTherapy />
+    </div>
+  )
 }
 
 export default primaTherapy

@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   position: relative;
-  width: 90%; /* Галерея займає всю ширину сторінки */
+  width: 100%; /* Галерея займає всю ширину сторінки */
   overflow: hidden;
-  padding: 20px; /* Додатковий відступ навколо галереї */
+  padding: 0 20px; /* Додатковий відступ навколо галереї */
+  box-sizing: border-box; /* Врахування падінгів у ширині */
 }
 
 .gallery {
@@ -13,6 +14,9 @@
   scroll-behavior: smooth; /* Плавний скролінг */
   scrollbar-width: none; /* Вимкнення скролбару для Firefox */
   white-space: nowrap; /* Запобігає переносу елементів на новий рядок */
+  padding-left: 10px; /* Відступ зліва для зображень */
+  padding-right: 10px; /* Відступ справа для зображень */
+  margin-top: 20px;
 }
 
 .gallery::-webkit-scrollbar {
@@ -23,15 +27,19 @@
   flex-shrink: 0; /* Забороняє зображенням стискатися */
   width: 400px; /* Нова ширина для збільшення зображень */
   height: 350px; /* Нова висота для збільшення зображень */
-  margin-right: 20px; /* Відступ між зображеннями */
+  margin-right: 10px; /* Відступ між зображеннями */
   overflow: hidden; /* Приховує частини зображень, що виходять за межі контейнера */
   position: relative; /* Для коректної роботи next/image */
   border-radius: 8px; /* Закруглення кутів (опціонально) */
 }
 
+.imageContainer:last-of-type {
+  margin-right: 0; /* Видалення відступу для останнього зображення */
+}
+
 .scrollButton {
-  background-color: #0070f3;
-  color: #fff;
+  background-color: #4193f141;
+  color: #e61111;
   border: none;
   padding: 15px; /* Збільшено розмір кнопок */
   cursor: pointer;
