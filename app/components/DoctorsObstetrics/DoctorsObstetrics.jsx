@@ -34,7 +34,7 @@ const DoctorsObstetrics = () => {
           <CardsDoctors
             title="Довгань В'ячеслав Юрійович"
             description="Лікар-терапевт. 1985р. - закінчила Буковинську державну медичну академію . Категорія - Вища."
-            imageUrl="/images/obstetrics/obstetrics9.jpg"
+            imageUrl="/images/obstetrics/obstetrics6.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
