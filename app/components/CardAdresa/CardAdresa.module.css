@@ -11,10 +11,6 @@
   border: 1px solid #0e23dd; /* Тонка рамка */
 }
 
-/* .card:hover {
-  transform: translateY(-5px);
-} */
-
 .card:hover {
   transform: scale(1.05); /* Збільшення при наведенні */
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Більш насичена тінь */

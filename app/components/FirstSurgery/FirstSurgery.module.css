@@ -5,7 +5,7 @@
   margin: 0 auto;
   background-color: #e5f0a8bd;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
 }
 
 .firstSurgeryTitle {
@@ -20,8 +20,8 @@
 
 .firstSurgeryText {
   max-width: 70%;
-  background-color: #f7eaa1bd;
-  border-bottom: 2px solid #9ca519;
+  background-color: #f7f1a1bd;
+  border-bottom: 2px solid #24f31d;
 }
 .firstSurgeryImage {
   display: flex;

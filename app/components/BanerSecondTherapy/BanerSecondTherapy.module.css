@@ -13,7 +13,7 @@
   background-size: cover; /* Фон заповнює всю секцію */
   background-repeat: no-repeat; /* Забороняє повторення */
   background-position: top; /* Закріплює верхню частину зображення */
-  height: 17cm; /* Фіксована висота */
+  height: 45em; /* Фіксована висота */
 
   padding: 0 10%; /* Відступи з боків для меж */
   position: relative; /* Відносне позиціонування для розміщення тексту */
@@ -60,16 +60,6 @@
   transition: max-height 0.3s ease-out;
   overflow: hidden;
 }
-
-/* .maternBanerImage img {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: auto;
-  border-radius: 2%;
-  border: 2px solid #1d1c1c;
-  gap: 30px;
-} */
 
 .banerSecondTherapyImage {
   display: flex;

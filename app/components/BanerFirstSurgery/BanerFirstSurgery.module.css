@@ -3,7 +3,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #e5f0a8bd;
+  background-color: #c6f373bd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -12,7 +12,7 @@
   background-image: url('/chirurgFirst.JPG'); /* Шлях до зображення */
   background-size: cover;
   background-position: center;
-  height: 17cm; /* Фіксована висота */
+  height: 50em; /* Фіксована висота */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@
 .firstSurgeryText {
   max-width: 90%;
   background-color: #f7eaa1bd;
-  border-bottom: 2px solid #9ca519;
+  border-bottom: 2px solid #5ad35a;
   border-radius: 2%;
 }
 

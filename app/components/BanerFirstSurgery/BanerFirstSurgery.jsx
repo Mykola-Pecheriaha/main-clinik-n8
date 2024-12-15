@@ -32,7 +32,7 @@ export default function BanerFirstSurgery() {
         </div>
 
         <div className={styles.firstSurgeryImage}>
-          <img
+          <Image
             src="/department.jpg" // Шлях до зображення з папки public
             alt="Doctor"
             width={600}

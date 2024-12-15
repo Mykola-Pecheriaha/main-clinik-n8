@@ -2,7 +2,7 @@
 
 /* Заголовок */
 .headerSection {
-  background-color: #e0f7fa13;
+  background-color: #dbf3f713;
   padding: 20px;
   text-align: center;
 }
@@ -37,18 +37,6 @@
   border-radius: 15px; /* М'які краї */
 }
 
-/* Кастомні стилі карток */
-/* .customCard {
-  background-color: #fffbea;
-  padding: 30px;
-  border: 2px solid #f0ad4e;
-  border-radius: 15px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  height: 300px;
-  
-} */
-
 .customCard {
   display: flex; /* Робимо дочірні елементи флекс-елементами */
   flex-direction: row; /* Розміщуємо елементи в рядок */
@@ -65,13 +53,6 @@
   transform: scale(1.05);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
-
-/* .customCardImage {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 15px;
-} */
 
 .customCardImage {
   flex: 5; /* Зображення займає більшу частину */
@@ -101,14 +82,3 @@
   flex-direction: column;
   justify-content: center;
 }
-/* .cardContainer {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 20px;
-} */
-
-/* .cardWrapper {
-  display: flex; 
-  justify-content: center;
-} */

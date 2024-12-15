@@ -33,7 +33,7 @@ const DoctorsObstetrics = () => {
         <div className={styles.cardWrapper}>
           <CardsDoctors
             title="Довгань В'ячеслав Юрійович"
-            description="Лікар-терапевт. 1985р. - закінчила Буковинську державну медичну академію . Категорія - Вища."
+            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics6.jpg"
             layout="horizontal"
             customStyles={{

@@ -3,7 +3,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #eff1e4bd;
+  background-color: #eecdcd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -13,7 +13,7 @@
   background-size: cover; /* Фон заповнює всю секцію */
   background-repeat: no-repeat; /* Забороняє повторення */
   background-position: top; /* Закріплює верхню частину зображення */
-  height: 15cm; /* Фіксована висота */
+  height: 35em; /* Фіксована висота */
   display: flex;
   align-items: end;
   justify-content: center;
@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e7dede;
   padding-bottom: 20px;
   margin-bottom: 20px;
 
@@ -33,7 +33,7 @@
 
 .maternBanerText {
   max-width: 80%;
-  background-color: #abeaecbd;
+  background-color: #d0f4f5bd;
   border-bottom: 2px solid #0b83d3;
   border-radius: 2%;
 }
