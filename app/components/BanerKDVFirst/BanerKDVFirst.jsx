@@ -3,11 +3,11 @@
 import React from 'react'
 import Image from 'next/image' // Імпорт Image
 import styles from './BanerKDVFirst.module.css'
-// import Gallery from '../Gallery/Gallery'
-// import primaTherapy from '../../../data/primaTherapy/primaTherapi'
+import Gallery from '../Gallery/Gallery'
+import kdvPrimaCorpGalleryImages from '../../../data/kdvPrimaCorp/kdvPrimaCorpGalleryImages'
 
 import KdwPrimaDepartment from '../KdwPrimaDepartment/KdwPrimaDepartment'
-// import DoctorsPrimaTherapy from '../DoctorsPrimaTherapy/DoctorsPrimaTherapy'
+import DoctorsKdvPrima from '../../components/DoctorsKdvPrima/DoctorsKdvPrima'
 
 export default function BanerKDVFirst() {
   return (
@@ -67,8 +67,8 @@ export default function BanerKDVFirst() {
 
       <KdwPrimaDepartment />
 
-      {/* <Gallery images={primaTherapy} /> */}
-      {/* <DoctorsPrimaTherapy /> */}
+      <Gallery images={kdvPrimaCorpGalleryImages} />
+      <DoctorsKdvPrima />
     </div>
   )
 }

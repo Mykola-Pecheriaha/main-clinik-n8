@@ -1,0 +1,102 @@
+/* Стилі для компоненту DoctorsDepartment */
+
+/* Заголовок */
+.headerSection {
+  background-color: #e0f7fa13;
+  padding: 20px;
+  text-align: center;
+}
+
+.headerSection h2 {
+  color: dodgerblue;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Контейнер карток */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  /* justify-content: center; */
+  padding: 20px;
+  justify-content: start;
+}
+
+.cardWrapper {
+  flex: 1 1 1000px;
+  max-width: 1000px;
+}
+.enlargedCardImage {
+  width: 700px; /* Збільшена ширина */
+  height: 500px; /* Збільшена висота */
+  object-fit: cover; /* Зберігаємо пропорції */
+  border-radius: 15px; /* М'які краї */
+}
+
+/* Кастомні стилі карток  */
+.customCard {
+  background-color: #fffbea;
+  padding: 30px;
+  border: 2px solid #f0ad4e;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 300px;
+}
+
+.customCard {
+  display: flex; /* Робимо дочірні елементи флекс-елементами */
+  flex-direction: row; /* Розміщуємо елементи в рядок */
+  background-color: #fffbea;
+  padding: 30px;
+  border: 2px solid #f0ad4e;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 300px;
+}
+
+.customCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.customCardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.customCardImage {
+  flex: 5; /* Зображення займає більшу частину */
+  max-width: 80%; /* Максимальна ширина для контролю */
+  height: auto; /* Зберігаємо пропорції */
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.customCardTitle {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #141414;
+  margin: 10px 0;
+}
+
+.customCardDescription {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.customCardContent {
+  flex: 1; /* Текст займає меншу частину */
+  padding-left: 20px; /* Відступ між зображенням і текстом */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
