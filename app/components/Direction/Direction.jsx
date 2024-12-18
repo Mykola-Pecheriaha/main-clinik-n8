@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Direction.module.css'
-import CardDirection from '../CardDirection/CardDirection'
+import CardsDoctors from '../CardsDoctors/CardsDoctors'
 
 const Direction = () => {
   return (
@@ -13,7 +13,7 @@ const Direction = () => {
       {/* Секція з картками */}
       <div className={styles.cardContainer}>
         <div className={styles.cardWrapper}>
-          <CardDirection
+          <CardsDoctors
             title=" Проц Віктор Йосипович"
             description={`Генеральний директор, Заслужений лікар України.\n
 1980р. - закінчив Чернівецький медичний інститут\n
@@ -30,7 +30,7 @@ const Direction = () => {
         </div>
 
         <div className={styles.cardWrapper}>
-          <CardDirection
+          <CardsDoctors
             title="Кіршенблат Володимир Яковлевич"
             description="Медичний директор. 1980р. - закінчив чернівецький медичний інститут . Категорія - Вища."
             imageUrl="/images/administratia/cirshenblat3.jpg"
@@ -49,7 +49,7 @@ const Direction = () => {
         </div>
 
         <div className={styles.cardWrapper}>
-          <CardDirection
+          <CardsDoctors
             title="Клічук Лариса Володимирівна"
             description="Заступник генерального директора з медичного маркетингу та адміністрування. 1993р. - Буковинський державний медичний університет. Категорія - Вища."
             imageUrl="/images/administratia/clichukі.jpg"
@@ -63,7 +63,7 @@ const Direction = () => {
           />
         </div>
         <div className={styles.cardWrapper}>
-          <CardDirection
+          <CardsDoctors
             title="Ткачик Світлана Ярославівна"
             description="Зазступник медичного директора з контролю якості медичного обслуговування. 199хр. - закінчила Буковинський державний медичний університет. Категорія - вища."
             imageUrl="/images/administratia/tkachik.jpg"

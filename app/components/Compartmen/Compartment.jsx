@@ -47,6 +47,15 @@ const Compartment = () => {
 
         <div className={styles.cardWrapper}>
           <Card
+            title="Амбулаторна  допомога"
+            description="Амбулаторна  допомога"
+            imageUrl="/paliativ.jpg"
+            linkUrl="/departament/ambulatory"
+          />
+        </div>
+
+        <div className={styles.cardWrapper}>
+          <Card
             title="Паліативна допомога"
             description="Паліативна допомога"
             imageUrl="/paliativ.jpg"

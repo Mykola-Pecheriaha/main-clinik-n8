@@ -66,13 +66,6 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* .customCardImage {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 15px;
-} */
-
 .customCardImage {
   flex: 5; /* Зображення займає більшу частину */
   max-width: 80%; /* Максимальна ширина для контролю */
@@ -101,14 +94,3 @@
   flex-direction: column;
   justify-content: center;
 }
-/* .cardContainer {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 20px;
-} */
-
-/* .cardWrapper {
-  display: flex; 
-  justify-content: center;
-} */

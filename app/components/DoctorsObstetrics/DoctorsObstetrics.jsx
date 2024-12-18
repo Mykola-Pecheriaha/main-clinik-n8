@@ -32,21 +32,6 @@ const DoctorsObstetrics = () => {
 
         <div className={styles.cardWrapper}>
           <CardsDoctors
-            title="Довгань В'ячеслав Юрійович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/obstetrics/obstetrics6.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
             title="Круглик Володимир Климович"
             description="Лікар-анестезіолог,  2019р. - закінчив Чернівецький Державний медичний університет. Категорія - друга."
             imageUrl="/images/obstetrics/obstetrics5.jpg"
@@ -65,6 +50,21 @@ const DoctorsObstetrics = () => {
             title="Сорохан Майя Василівна"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics1.jpg"
+            layout="horizontal"
+            customStyles={{
+              card: styles.customCard,
+              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
+              cardTitle: styles.customCardTitle,
+              cardDescription: styles.customCardDescription,
+            }}
+          />
+        </div>
+
+        <div className={styles.cardWrapper}>
+          <CardsDoctors
+            title="Довгань В'ячеслав Юрійович"
+            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
+            imageUrl="/images/obstetrics/obstetrics6.jpg"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,

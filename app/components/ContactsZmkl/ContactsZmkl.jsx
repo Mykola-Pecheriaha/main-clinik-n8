@@ -43,8 +43,8 @@ const hospitalData = [
       },
       {
         icon: '/images/icon/free-icon-email-16121743.png',
-        title: 'cmkl@cmkl.cv.ua',
-        text: 'lviv@clinic.com',
+        title: 'Email',
+        text: 'cmkl@cmkl.cv.ua',
       },
       {
         icon: '/images/icon/free-icon-work-time-3671952.png',
@@ -68,8 +68,8 @@ const hospitalData = [
       },
       {
         icon: '/images/icon/free-icon-email-16121743.png',
-        title: 'cmkl@cmkl.cv.ua',
-        text: 'odesa@clinic.com',
+        title: 'Email',
+        text: 'cmkl@cmkl.cv.ua',
       },
       {
         icon: '/images/icon/free-icon-work-time-3671952.png',
@@ -93,8 +93,8 @@ const hospitalData = [
       },
       {
         icon: '/images/icon/free-icon-email-16121743.png',
-        title: 'cmkl@cmkl.cv.ua',
-        text: 'odesa@clinic.com',
+        title: 'Email',
+        text: 'cmkl@cmkl.cv.ua',
       },
       {
         icon: '/images/icon/free-icon-work-time-3671952.png',

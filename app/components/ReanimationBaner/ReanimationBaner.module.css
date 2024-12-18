@@ -61,16 +61,6 @@
   overflow: hidden;
 }
 
-/* .maternBanerImage img {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: auto;
-  border-radius: 2%;
-  border: 2px solid #1d1c1c;
-  gap: 30px;
-} */
-
 .reanimationBanerImage {
   display: flex;
   flex-direction: column;

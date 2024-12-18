@@ -24,7 +24,7 @@ const CardsPage = () => {
         linkUrl="/departament/maternity"
       />
       <Card
-        title="Реабілітаційна  допомого"
+        title="Реабілітаційна  допомога"
         description="Реабілітаційна допомога"
         imageUrl="/paliativ.jpg"
         linkUrl="/departament/palliative"

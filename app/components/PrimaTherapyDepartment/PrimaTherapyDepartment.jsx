@@ -14,12 +14,6 @@ export default function PrimaTherapyDepartment() {
   const toggleSection = (section) => {
     if (section === 'ulcer') {
       setIsUlcerlOpen(!isUlcerOpen)
-      // } else if (section === 'bilious') {
-      //   setIsBiliousOpen(!isBiliousOpen)
-      // } else if (section === 'hernias') {
-      //   setIsHerniasOpen(!isHerniasOpen)
-      // } else if (section === 'carpalSyndrome') {
-      //   setIsCarpalSyndrome(!isCarpalSyndrome)
     }
   }
 
@@ -199,7 +193,7 @@ export default function PrimaTherapyDepartment() {
                 layout="responsive" // Зберігає пропорції під час зміни розмірів
               />
               <Image
-                src="/images/secondTherapy/ulcer6.jpg" // Шлях до зображення в папці public
+                src="/images/secondTherapy/ulcer4.jpg" // Шлях до зображення в папці public
                 alt="Liver2"
                 width={300}
                 height={200}

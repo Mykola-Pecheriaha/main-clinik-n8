@@ -1,0 +1,35 @@
+/* Заголовок */
+.headerSection {
+  background-image: url('/images/policlinik/polacliniccomm.jpg'); /* Шлях до зображення */
+  background-size: cover;
+  background-position: center;
+  height: 35em; /* Фіксована висота */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTitle {
+  font-size: 2rem;
+  color: rgb(37, 34, 238);
+  text-shadow: 2px 2px 4px rgba(7, 14, 112, 0.281);
+}
+
+/* Контейнер для карток */
+.cardContainer {
+  display: flex; /* Використовуємо flexbox */
+  justify-content: space-between; /* Відступи між картками */
+  flex-wrap: wrap; /* Якщо ширини не вистачає, картки переносяться на новий ряд */
+  gap: 20px; /* Відстань між картками */
+  padding: 20px; /* Відступи від країв контейнера */
+}
+.card {
+  flex: 1 0 calc(20% - 10px); /* Кожна картка займає приблизно 20% ширини */
+  max-width: calc(20% - 10px); /* Обмеження максимальної ширини */
+  min-width: 150px; /* Мінімальна ширина картки */
+  box-sizing: border-box; /* Урахування padding у розмірах */
+}
+.card:hover {
+  transform: scale(1.05); /* Збільшення карточки при наведенні */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Посилена тінь */
+}

@@ -21,7 +21,7 @@ const CardDirection = ({
           src={imageUrl}
           alt={title}
           width={300}
-          height={400}
+          height={350}
           className={styles.image}
         />
       </div>

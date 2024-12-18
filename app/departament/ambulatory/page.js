@@ -1,7 +1,12 @@
 import React from 'react'
+import AmbulatorGeneral from '../../components/AmbulatorGeneral/AmbulatorGeneral.jsx'
 
 const ambulatory = () => {
-  return <div> Сайт в розробці - амбулаторна допомога</div>
+  return (
+    <div>
+      <AmbulatorGeneral />
+    </div>
+  )
 }
 
 export default ambulatory

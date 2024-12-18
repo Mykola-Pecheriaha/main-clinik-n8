@@ -3,20 +3,9 @@
   align-items: center;
 
   justify-content: center;
-  border-bottom: 5px solid #faf8f8;
+  border-bottom: 5px solid #0f0fc4;
   padding-bottom: 20px;
   margin-bottom: 20px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #9b1010;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -28,7 +17,7 @@
 }
 
 .cardWrapper {
-  margin-bottom: 20px; /* Задає відстань між картками */
+  margin-bottom: 20px;
 }
 
 .imageWrapper {
@@ -37,8 +26,8 @@
 
 .image {
   object-fit: cover;
-  width: 60%;
-  height: 80%;
+  width: 80%;
+  height: 100%;
   padding: 5px;
   border-radius: 10px;
 }
