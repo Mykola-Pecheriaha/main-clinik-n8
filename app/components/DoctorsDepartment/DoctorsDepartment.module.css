@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  /* justify-content: center; */
+
   padding: 20px;
   justify-content: start;
 }
@@ -37,7 +37,8 @@
   border-radius: 15px; /* М'які краї */
 }
 
-Кастомні стилі карток .customCard {
+/* Кастомні стилі карток  */
+.customCard {
   background-color: #fffbea;
   padding: 30px;
   border: 2px solid #f0ad4e;

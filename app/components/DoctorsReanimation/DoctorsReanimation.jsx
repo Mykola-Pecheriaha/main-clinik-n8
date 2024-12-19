@@ -20,7 +20,7 @@ const DoctorsReanimation = () => {
             description={`лікар-анестезіолог реаніматолог, 
 1995р. - закінчив Буковинську Вержавну медичну академію\n
 категорія - Вища`}
-            imageUrl="/images/doctors/pizic2.jpg"
+            imageUrl="/images/doctors/"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
@@ -35,7 +35,7 @@ const DoctorsReanimation = () => {
           <CardsDoctors
             title="Бойчук Степан Іванович"
             description="Лікар-анестезіолог. 1985р. - закінчив Чернівецький медичний інститут . Категорія - Вища."
-            imageUrl="/images/doctors/pecheriaha2.jpg"
+            imageUrl="/images/doctors/"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,

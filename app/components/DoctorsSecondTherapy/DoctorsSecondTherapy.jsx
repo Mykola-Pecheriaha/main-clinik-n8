@@ -45,36 +45,6 @@ const DoctorsSecondTherapy = () => {
             }}
           />
         </div>
-
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title=" Анастасія "
-            description="Лікар-анестезіолог,  2019р. - закінчив Чернівецький Державний медичний університет. Категорія - друга."
-            imageUrl="/images/reanimation/reanim14і.JPG"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
-
-        <div className={styles.cardWrapper}>
-          <CardsDoctors
-            title="Блискун Володимир Юрійович"
-            description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
-            imageUrl="/images/doctors/pizicм.jpg"
-            layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
-          />
-        </div>
       </div>
     </div>
   )

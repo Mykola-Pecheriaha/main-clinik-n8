@@ -19,7 +19,7 @@ const DoctorsKdvPrima = () => {
             description={`лікар-гінеколог, Завідувач консультативно-діагностичного відділення 
 1995р. - закінчив Буковинську Вержавну медичну академію\n
 категорія - Вища`}
-            imageUrl="/images/doctors/pizi.jpg"
+            imageUrl="/images/doctors/"
             layout="horizontal"
             customStyles={{
               card: styles.customCard,
