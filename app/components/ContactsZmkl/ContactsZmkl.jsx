@@ -1,5 +1,6 @@
 import React from 'react'
 import CardAdresa from '../../components/CardAdresa/CardAdresa'
+import Image from 'next/image'
 import styles from './ContactsZmkl.module.css'
 
 const hospitalData = [

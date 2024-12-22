@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from './BigBort.module.css'
 import Link from 'next/link'
 import CardsPage from '../CardsPage/CardsPage'

@@ -1,5 +1,5 @@
 import React from 'react'
-// import Card from '../Card/Card.jsx'
+import Image from 'next/image'
 
 import styles from './DoctorsPrimaTherapy.module.css'
 import CardsDoctors from '../CardsDoctors/CardsDoctors.jsx'
@@ -21,13 +21,9 @@ const DoctorsPrimaTherapy = () => {
 1995р. - закінчила Буковинську державну медичну академію\n
 категорія - Вища`}
             imageUrl="/images/primatherapy/primather2.JPG"
+            imageWidth={300} // ширина зображення
+            imageHeight={400} // висота зображення
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -36,13 +32,9 @@ const DoctorsPrimaTherapy = () => {
             title="Ватаман Олена Вікторівна"
             description="Лікар-терапевт. 1985р. - закінчила Буковинську державну медичну академію . Категорія - Вища."
             imageUrl="/images/primatherapy/primather6.JPG"
+            imageWidth={300} // ширина зображення
+            imageHeight={400} // висота зображення
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -51,13 +43,9 @@ const DoctorsPrimaTherapy = () => {
             title=" Анастасія "
             description="Лікар-анестезіолог,  2019р. - закінчив Чернівецький Державний медичний університет. Категорія - друга."
             imageUrl="/images/primatherapy/primather4.JPG"
+            imageWidth={300} // ширина зображення
+            imageHeight={400} // висота зображення
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
       </div>

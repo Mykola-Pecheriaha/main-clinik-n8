@@ -9,6 +9,8 @@ const CardsDoctors = ({
   layout = 'vertical', // Горизонтальне або вертикальне розташування
   imageFlex = 1, // Пропорція зображення
   textFlex = 1, // Пропорція тексту
+  imageWidth = 200, // Ширина зображення за замовчуванням
+  imageHeight = 300, // Висота зображення за замовчуванням
 }) => {
   return (
     <div
@@ -20,8 +22,8 @@ const CardsDoctors = ({
         <Image
           src={imageUrl}
           alt={title}
-          width={200}
-          height={300}
+          width={imageWidth} // Передається ширина
+          height={imageHeight} // Передається висота
           className={styles.image}
         />
       </div>

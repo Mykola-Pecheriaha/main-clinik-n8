@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 import styles from './DoctorsObstetrics.module.css'
 import CardsDoctors from '../CardsDoctors/CardsDoctors.jsx'
 
@@ -20,13 +20,9 @@ const DoctorsObstetrics = () => {
 1995р. - закінчила Буковинську державну медичну академію\n
 категорія - Вища`}
             imageUrl="/images/obstetrics/obstetrics3.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -35,13 +31,9 @@ const DoctorsObstetrics = () => {
             title="Круглик Володимир Климович"
             description="Лікар-анестезіолог,  2019р. - закінчив Чернівецький Державний медичний університет. Категорія - друга."
             imageUrl="/images/obstetrics/obstetrics5.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -50,13 +42,9 @@ const DoctorsObstetrics = () => {
             title="Сорохан Майя Василівна"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics1.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -65,13 +53,9 @@ const DoctorsObstetrics = () => {
             title="Довгань В'ячеслав Юрійович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics6.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -80,13 +64,9 @@ const DoctorsObstetrics = () => {
             title="Варвус Едуард Вікторович"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics4.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -95,13 +75,9 @@ const DoctorsObstetrics = () => {
             title="Наталія "
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics7.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -110,13 +86,9 @@ const DoctorsObstetrics = () => {
             title="Пушкашу Анастасія Василівна"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics9.JPG"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
         <div className={styles.cardWrapper}>
@@ -124,13 +96,9 @@ const DoctorsObstetrics = () => {
             title="Захлівняк Тетяна Володимирівна"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics2.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
         <div className={styles.cardWrapper}>
@@ -138,13 +106,9 @@ const DoctorsObstetrics = () => {
             title="Корчак Віра Дмитріївна"
             description="Лікар-хірург, Заслужений лікар України. 1976р. - закінчив Вінницький медичний інститут. Категорія - Вища."
             imageUrl="/images/obstetrics/obstetrics8.jpg"
+            imageWidth={300}
+            imageHeight={400}
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
       </div>

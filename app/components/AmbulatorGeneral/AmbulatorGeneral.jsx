@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../Card/Card.jsx'
+import Image from 'next/image'
 import styles from './AmbulatorGeneral.module.css'
 
 const AmbulatorGeneral = () => {

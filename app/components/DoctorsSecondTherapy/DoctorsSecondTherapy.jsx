@@ -1,6 +1,6 @@
 import React from 'react'
-// import Card from '../Card/Card.jsx'
 
+import Image from 'next/image'
 import styles from './DoctorsSrcondTherapy.module.css'
 import CardsDoctors from '../CardsDoctors/CardsDoctors.jsx'
 
@@ -21,13 +21,9 @@ const DoctorsSecondTherapy = () => {
 1995р. - закінчила Буковинську державну медичну академію\n
 категорія - Вища`}
             imageUrl="/images/secondTherapy/therapy14.jpg"
+            imageWidth={300} // ширина зображення
+            imageHeight={400} // висота зображення
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
 
@@ -36,13 +32,9 @@ const DoctorsSecondTherapy = () => {
             title="Румак Інга Сергіївна"
             description="Лікар-терапевт. 1985р. - закінчила Буковинську державну медичну академію . Категорія - Вища."
             imageUrl="/images/secondTherapy/therapy8.jpg"
+            imageWidth={300} // ширина зображення
+            imageHeight={400} // висота зображення
             layout="horizontal"
-            customStyles={{
-              card: styles.customCard,
-              cardImage: styles.enlargedCardImage, // Використовуємо новий клас для збільшення
-              cardTitle: styles.customCardTitle,
-              cardDescription: styles.customCardDescription,
-            }}
           />
         </div>
       </div>

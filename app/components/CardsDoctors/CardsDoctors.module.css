@@ -6,52 +6,68 @@
   overflow: hidden;
   background-color: #f5f1f1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.438);
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 16px;
 }
 
 .card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px); /* Додаємо легкий ефект підняття */
 }
 
 .horizontal {
-  flex-direction: row;
+  flex-direction: row; /* Горизонтальне компонування */
 }
 
 @media (max-width: 768px) {
   .horizontal {
-    flex-direction: column; /* Перехід до вертикального розташування на малих екранах */
+    flex-direction: column; /* Вертикальне компонування на малих екранах */
   }
 
-  .image {
-    width: 50%; /* Розтягуємо зображення */
-    height: auto;
+  .imageWrapper {
+    width: 100%; /* Зображення займає всю ширину */
+  }
+
+  .content {
+    text-align: center; /* Центруємо текст */
   }
 }
 
 .imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+  flex: 1; /* Динамічний розподіл простору */
 }
 
 .image {
   object-fit: cover;
-  width: 80%;
-  height: 100%;
+  width: 100%; /* Ширина зображення */
+  height: auto; /* Автоматичне налаштування висоти */
   border-radius: 10px;
-  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05); /* Невелике збільшення зображення при наведенні */
 }
 
 .content {
   padding: 16px;
-  text-align: center; /* Для більш гармонійного вигляду на малих екранах */
+  flex: 1; /* Динамічний розподіл простору для тексту */
+  text-align: center; /* Вирівнюємо текст по центру */
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem; /* Менший розмір тексту для адаптації */
+  font-weight: bold;
   margin: 0 0 8px 0;
-  color: #333;
+  color: #0c5986; /* Використовуємо кольоровий акцент */
 }
 
 .description {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #666;
+  line-height: 1.5; /* Покращує читабельність тексту */
 }

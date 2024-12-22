@@ -4,6 +4,7 @@
 
 import { useState } from 'react'
 import styles from './Contacts.module.css'
+import Image from 'next/image'
 
 export default function ContactsBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

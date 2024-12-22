@@ -1,13 +1,13 @@
 const kdvPrimaCorpGalleryImages = [
-  '/images/policlinikgall/policlinicgall9.jpg',
-  '/images/policlinikgall/policlinicgall1.jpg',
-  '/images/policlinikgall/policlinicgall2.jpg',
-  '/images/policlinikgall/policlinicgall3.jpg',
-  '/images/policlinikgall/policlinicgall4.jpg',
-  '/images/policlinikgall/policlinicgall5.jpg',
-  '/images/policlinikgall/policlinicgall6.jpg',
-  '/images/policlinikgall/policlinicgall7.jpg',
+  '/images/policlinikgall/policlinicgall9.JPG',
+  '/images/policlinikgall/policlinicgall1.JPG',
+  '/images/policlinikgall/policlinicgall2.JPG',
+  '/images/policlinikgall/policlinicgall3.JPG',
+  '/images/policlinikgall/policlinicgall4.JPG',
+  '/images/policlinikgall/policlinicgall5.JPG',
+  '/images/policlinikgall/policlinicgall6.JPG',
+  '/images/policlinikgall/policlinicgall7.JPG',
 
-  '/images/policlinikgall/policlinicgall10.jpg',
+  '/images/policlinikgall/policlinicgall10.JPG',
 ]
 export default kdvPrimaCorpGalleryImages
