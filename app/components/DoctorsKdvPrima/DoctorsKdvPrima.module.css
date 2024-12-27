@@ -21,36 +21,26 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  /* justify-content: center; */
   padding: 20px;
-  justify-content: start;
+  justify-content: flex-start; /* Використовуйте flex-start для більшої сумісності */
 }
 
 .cardWrapper {
   flex: 1 1 1000px;
   max-width: 1000px;
 }
+
 .enlargedCardImage {
-  width: 700px; /* Збільшена ширина */
-  height: 500px; /* Збільшена висота */
-  object-fit: cover; /* Зберігаємо пропорції */
-  border-radius: 15px; /* М'які краї */
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
-/* Кастомні стилі карток  */
+/* Кастомні стилі карток */
 .customCard {
-  background-color: #fffbea;
-  padding: 30px;
-  border: 2px solid #f0ad4e;
-  border-radius: 15px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  height: 300px;
-}
-
-.customCard {
-  display: flex; /* Робимо дочірні елементи флекс-елементами */
-  flex-direction: row; /* Розміщуємо елементи в рядок */
+  display: flex;
+  flex-direction: row;
   background-color: #fffbea;
   padding: 30px;
   border: 2px solid #f0ad4e;
@@ -66,22 +56,24 @@
 }
 
 .customCardImage {
-  width: 100%;
+  flex: 5;
+  max-width: 80%;
   height: auto;
   object-fit: cover;
   border-radius: 15px;
+  padding: 5px;
 }
 
-.customCardImage {
-  flex: 5; /* Зображення займає більшу частину */
-  max-width: 80%; /* Максимальна ширина для контролю */
-  height: auto; /* Зберігаємо пропорції */
-  object-fit: cover;
-  border-radius: 15px;
+.customCardContent {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .customCardTitle {
-  font-size: 4rem;
+  font-size: 2rem; /* Зменшено для більшої сумісності */
   font-weight: bold;
   color: #141414;
   margin: 10px 0;
@@ -91,12 +83,4 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.5;
-}
-
-.customCardContent {
-  flex: 1; /* Текст займає меншу частину */
-  padding-left: 20px; /* Відступ між зображенням і текстом */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }

@@ -45,8 +45,9 @@
   object-fit: cover;
   width: 100%; /* Ширина зображення */
   height: auto; /* Автоматичне налаштування висоти */
-  border-radius: 10px;
+  border-radius: 20px;
   transition: transform 0.3s ease;
+  padding: 10px;
 }
 
 .image:hover {

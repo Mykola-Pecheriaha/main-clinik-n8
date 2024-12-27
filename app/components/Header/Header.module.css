@@ -53,11 +53,12 @@
   font-size: 20px;
   cursor: pointer;
   margin-left: auto; /* Завжди праворуч */
+  color: rgb(17, 101, 197);
 }
 
 .burgerMenu {
   position: absolute;
-  top: 50px;
+  top: 100%;
   right: 10px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
